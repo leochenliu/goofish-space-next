@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Goofish 空格翻页",
+  "version": "1.4.0",
+  "description": "在闲鱼(goofish)搜索页按空格键翻到下一页，替代鼠标点击页码/下一页按钮。",
+  "content_scripts": [
+    {
+      "matches": ["*://*.goofish.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
