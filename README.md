@@ -42,3 +42,16 @@ if (manual) return { el: manual, method: 'manual' };
 ```
 
 或把控制台输出的 `[GoofishSpaceNext]` 日志发我，我帮你加精准选择器。
+
+## 发布到 Chrome 应用商店
+
+- 上架材料（名称/简介/详细说明/隐私规范/截图规范/审核风险）：见 [`STORE_LISTING.md`](./STORE_LISTING.md)
+- 隐私政策：[`PRIVACY.md`](./PRIVACY.md)
+- 图标与宣传图：`icons/`（16/32/48/128 + 440×280 宣传图块）
+- 打包上传包：
+
+```bash
+python tools/make_zip.py        # 输出 dist/goofish-space-next-<version>.zip
+```
+
+（打包脚本只收录 `manifest.json` + `content.js` + `icons/*.png`）

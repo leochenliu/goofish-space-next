@@ -7,3 +7,6 @@ desktop.ini
 
 # logs
 *.log
+
+# build output (store upload zip)
+dist/
