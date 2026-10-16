@@ -60,6 +60,9 @@
 
 ## 4. 隐私规范（Privacy practices）填写答案
 
+> **完整逐字可粘贴版（中英对照 + 后台 4 条必填项对应关系）见 `STORE_PRIVACY_ANSWERS.md`。**
+> 下面是速览版。
+
 - **单一用途说明（Single purpose）**：
   `在闲鱼（goofish.com）搜索结果页，将空格键映射为「翻到下一页」，仅此一项功能。`
 - **content_scripts 主机权限理由**：
